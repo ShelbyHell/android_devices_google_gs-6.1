@@ -63,15 +63,15 @@
 					google,batt-id = <3>;
 					google,bhi-algo-ver = <11>;
 
-					google,aacr-ref-cycles = <399 400 1000>;
-					google,aacr-ref-fade10 = <  0 200  200>;
-					google,aafv-ref-cycles = <200 399 400>;
-					google,aafv-ref-offset = <  0  20 400>;
+					google,aacr-ref-cycles = <100 200 300 400 500 600 1000>;
+					google,aacr-ref-fade10 = <  1  13  25  36  45 100  200>;
+					google,aafv-ref-cycles = <200 400 600 800 1000 1001>;
+					google,aafv-ref-offset = <  0  20  40  60   80  130>;
 
 					google,aafv-cliff-cycle = <0>;
 					google,aafv-cliff-offset = <(-1)>;
 					google,aacp-health-over-cliff = <1>;
-					google,aacp-opt-out-cut-off-cycles = <400>;
+					google,aacp-opt-out-cut-off-cycles = <1500>;
 					google,aacp-health-over-cutoff = <2>;
 
 					google,aact-config = <1>;
